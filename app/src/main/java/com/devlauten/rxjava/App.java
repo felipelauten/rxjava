@@ -11,13 +11,6 @@ import java.util.Random;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 public class App {
-    @Deprecated
-    public String getGreeting() {
-        return "Hello World!";
-    }
-
-    @Deprecated
-    public Runnable runnable = () -> System.out.println(getGreeting());
 
     public Observable<Integer> fakeUserInput() {
         Random random = new Random();
