@@ -11,6 +11,9 @@ plugins {
     id 'application'
 }
 
+group 'com.devlauten'
+version '1.0-SNAPSHOT'
+
 repositories {
     // Use Maven Central for resolving dependencies.
     mavenCentral()
@@ -31,5 +34,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'rxjava.App'
+    mainClass = 'com.devlauten.rxjava.App'
 }
